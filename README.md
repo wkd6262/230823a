@@ -34,3 +34,23 @@ __해결__<br>
 1.에러 메시지 확인 후 git pull을 이용해 전 버전으로 복구한다.<br>
 2.복구 후 직접 내용을 추가한 후 commit을 한다<br>
 3.git push -u origin main 을 입력해 오류가 안뜨면 성공.
+
+## clone 과 pull ##
+- clone : 로컬에 저장소가 없는 경우. 저장소 자체를 복사
+- pull : 로컬에 연결된 저장소 있는 경우. 저장소 안에 있는 파일 내려받기
+
+* rejected 오류 발생시 일단 git pull로 전 버전을 다운받고 해결한다.
+
+## pull request
+- 포크로 가져온 repository를 수정 및 원작자에게 수정 반영하는 과정
+- 로컬에서 커밋 후 push
+- 포크한 github repository의 pull requests 탭으로 이동
+- new pull request 버튼 클릭
+- 수정된 내용 확인 후 create pull request 버튼 클릭
+- 커밋 메시지 작성 혹은 확인 후 create pull request클릭
+- 전송이 되면 원작자의 repository pull requests 탭에서 확인 가능
+
+## pull request Check
+- pull request 버튼클릭
+- 내용 검토
+- 수정된 내용을 나의 github repository 반영하려면 Merge pull request 클릭
