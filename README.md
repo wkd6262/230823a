@@ -28,4 +28,5 @@
 
 ### 충돌(rejacted,conflict)시 해결 방법 ###
 1.에러 메시지 확인 후 git pull을 이용해 전 버전으로 복구한다.<br>
-2.복구 후 직접 내용을 추가한 후 commit을 한다
+2.복구 후 직접 내용을 추가한 후 commit을 한다<br>
+3.git push -u origin main 을 입력해 오류가 안뜨면 성공.
