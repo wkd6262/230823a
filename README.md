@@ -19,3 +19,4 @@
 `git push -u origin main`<br>
 
 ### github에서 내려 받기 ###
+`git pull origin main`
