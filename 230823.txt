@@ -3,8 +3,11 @@
 
 2.README.md 파일생성
 touch README.md 를 입력해 마크다운 파일을 생성한다.
+git status를 입력해 변동사항을 확인한다.
+git add . 와 git commit -m "" 를 입력해 변동사항을 최신화한다
+*변동사항이 있을때마다 최신화 해야한다.
 
-3. 온라인 저장소 생성
+3. 온라인 저장소 생성 및 README.md 파일 온라인 저장소 업로드
 
 git init으로 로컬저장소를 생성한 후
 git global --user.name "" 이름 설정
@@ -15,5 +18,5 @@ git config --list 로 입력이 확인 되었는지 확인.
 파일 ex)README.md를 추가한 후 add 및 커밋을 적용한다.
 순서대로
 git remote add origin https://github.com/""/git1.git(깃에서 깃허브 주소를 설정한다)
-git branch -M main (메인 브랜치 설정)
+git branch -M main (메인 브랜치 설정) -넘어가도 되는 명령어
 git push -u origin main (메인주소로 푸쉬(업로드))
