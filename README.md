@@ -7,7 +7,7 @@
 
 `touch README.md`<br>
 
-`git status를 입력해 변동사항을 확인한다.<br>`
+`git status를 입력해 변동사항을 확인한다.'<br>
 
 `git add . 추가된 모든 파일을 등록한다`<br>
 
