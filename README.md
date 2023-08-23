@@ -22,6 +22,8 @@
 ### github에서 내려 받기 ###
 `git pull origin main`
 
-5.clone 과 pull
+### clone과 pull 차이 ###
 -clone : 로컬에 저장소가 없는 경우. 저장소 자체를 복사
 -pull : 로컬에 연결된 저장소 있는 경우. 저장소 안에 있는 파일 내려받기
+
+
