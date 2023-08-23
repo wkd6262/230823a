@@ -4,6 +4,7 @@
 `git init`<br>
 
 2.README.md 파일생성
+
 `touch README.md`<br>
 
 `git status를 입력해 변동사항을 확인한다.<br>`
