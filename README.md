@@ -17,3 +17,5 @@
 4.README.md파일 온라인 저장소에 업로드
 
 `git push -u origin main`<br>
+
+### github에서 내려 받기 ###
